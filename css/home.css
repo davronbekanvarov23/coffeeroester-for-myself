@@ -1,0 +1,27 @@
+.hero {
+  margin-bottom: 136px;
+}
+.hero__container {
+  padding: 117px 85px;
+  background-image: url("../images/home/desktop/image-hero-coffeepress.jpg");
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color:  #A2A2A2;
+}
+
+.hero__content {
+  color: var(--Light-Cream);
+  width: 493px;
+}
+.hero__title {
+  margin-bottom: 32px;
+}
+.hero__description {
+  opacity: 0.8;
+  margin-bottom: 56px;
+  width: 440px;
+}
+.hero__btn {
+}

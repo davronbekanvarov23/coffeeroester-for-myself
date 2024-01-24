@@ -1,0 +1,24 @@
+.hero {
+}
+
+.hero__container {
+  padding: 134px 85px;
+  background-image: url(../images/plan/desktop/image-hero-blackcup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero__content {
+  width: 445px;
+  color: var(--Light-Cream);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.hero__title {
+}
+.hero__description {
+  opacity: 0.8;
+}
