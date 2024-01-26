@@ -1,4 +1,5 @@
 .hero {
+  margin-bottom: 168px;
 }
 
 .hero__container {
@@ -21,4 +22,56 @@
 }
 .hero__description {
   opacity: 0.8;
+}
+
+.suggestion {
+  margin-bottom: 168px;
+}
+.suggestion__content {
+  padding: 100px 85px;
+  background-color: var(--footer-bg);
+}
+
+.suggestion__rings {
+  display: flex;
+  width: 760px;
+  height: 1px;
+  background-color: var(--Pale-Orange);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 82px;
+  margin-left: 15px;
+  .right {
+    margin-right: -15.5px;
+  }
+  .left {
+    margin-left: -15.5px;
+  }
+  span {
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid var(--Dark-Cyan);
+  }
+}
+.suggestion__list {
+  display: flex;
+  gap: 95px;
+  h1 {
+    color: var(--Pale-Orange);
+    margin-bottom: 38px;
+    width: 255px;
+  }
+  h3 {
+    color: var(--Light-Cream);
+    margin-bottom: 42px;
+  }
+  p {
+    color: var(--Light-Cream);
+    width: 285px;
+  }
+}
+.suggestion__item {width: 285px;
 }

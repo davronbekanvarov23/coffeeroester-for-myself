@@ -8,7 +8,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color:  #A2A2A2;
+  background-color: #a2a2a2;
 }
 
 .hero__content {
@@ -25,3 +25,128 @@
 }
 .hero__btn {
 }
+
+/* ADVANTAGE START */
+.advantage {
+  background-color: var(--footer-bg);
+  border-radius: 10px;
+  padding: 100px 85px;
+  margin-bottom: 351px;
+}
+
+.advantage__text {
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--Light-Cream);
+  display: flex;
+  width: 100%;
+  max-width: 540px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 86px;
+  p {
+    width: 100%;
+    max-width: 529px;
+    opacity: 0.8;
+    text-align: center;
+  }
+}
+.advantage__box {
+  display: flex;
+  gap: 30px;
+}
+.advantage__card {
+  margin-bottom: -250px;
+  width: 100%;
+  max-width: 350px;
+  background-color: var(--Dark-Cyan);
+
+  padding: 72px 48px 48px 47px;
+  border-radius: 8px;
+  img {
+    margin-bottom: 56px;
+    margin-left: 88px;
+  }
+  span {
+    display: flex;
+    width: 100%;
+    max-width: 255px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: var(--Light-Cream);
+    p {
+      text-align: center;
+    }
+  }
+}
+.card__truck {
+  padding-top: 83px;
+  img {
+    margin-bottom: 67px;
+  }
+}
+/* SUGGESTION START */
+.suggestion {
+  margin-bottom: 64px;
+}
+.suggestion__content {
+  padding-left: 35px;
+  h4 {
+    color: var(--Grey);
+    margin-bottom: 95px;
+  }
+}
+
+.suggestion__rings {
+  display: flex;
+  width: 760px;
+  height: 1px;
+  background-color: var(--Pale-Orange);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 82px;
+  margin-left: 15px;
+  .right {
+    margin-right: -15.5px;
+  }
+  .left {
+    margin-left: -15.5px;
+  }
+  span {
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid var(--Dark-Cyan);
+  }
+}
+.suggestion__list {
+  display: flex;
+  gap: 95px;
+  h1 {
+    color: var(--Pale-Orange);
+    margin-bottom: 38px;
+    width: 255px;
+  }
+  h3 {
+    color: var(--Dark-Grey-Blue);
+    margin-bottom: 42px;
+  }
+  p {
+    color: var(--Dark-Grey-Blue);
+    width: 285px;
+  }
+}
+.suggestion__item {
+  width: 285px;
+}
+.suggestion__btn {
+  margin-left: 85px;
+ margin-bottom: 200px;
+}
+.home-footer{margin-top: 200px;}
